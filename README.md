@@ -64,7 +64,6 @@ The project successfully demonstrated an end-to-end data engineering workflow fo
 - **Big Data Handling**: Addressed challenges related to data size and format issues. Recommended using pre-processing tools and optimizing data storage formats (e.g., Parquet) for better performance.
 - **Error Resolution**: Solved issues related to Lambda functions and data compatibility through detailed troubleshooting and adjustments.
 
-## Conclusion
-
-This project highlights the importance of a systematic approach to data engineering and the benefits of leveraging AWS services for scalable data analysis. For more hands-on experience with similar projects, consider visiting [ProjectPro](https://projectpro.io).
+### Link to dashboard :
+https://us-east-1.quicksight.aws.amazon.com/sn/dashboards/dc10c358-72b6-4b37-bbaa-ecaf3fb560b4?#
 
