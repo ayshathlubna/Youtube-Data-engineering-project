@@ -52,27 +52,27 @@ The project involves the following steps:
 - Set up IAM roles and users with appropriate permissions.
 ### 2. Uploading Data to Amazon S3
 - Create an S3 bucket to store your data.
-Use the AWS CLI to upload data to the S3 bucket:
-aws s3 cp path_to_your_data s3://your_bucket_name --recursive
+-- Use the AWS CLI to upload data to the S3 bucket:
+-- aws s3 cp path_to_your_data s3://your_bucket_name --recursive
 ### 3. Building a Data Catalog with AWS Glue
-Create a Glue Crawler to crawl your S3 bucket and build a data catalog.
-Define the IAM role for Glue and grant it access to your S3 bucket.
-Run the crawler to catalog your data.
+- Create a Glue Crawler to crawl your S3 bucket and build a data catalog.
+- Define the IAM role for Glue and grant it access to your S3 bucket.
+- Run the crawler to catalog your data.
 ### 4. Querying Data with AWS Athena
-Use AWS Athena to create tables and query your data.
-Handle JSON serialization and deserialization issues by pre-processing the data.
+- Use AWS Athena to create tables and query your data.
+- Handle JSON serialization and deserialization issues by pre-processing the data.
 ### 5. Creating and Testing Lambda Functions
-Create a Lambda function to process data.
-Use AWS Wrangler to access and manipulate files in the S3 bucket.
-Store processed data in Parquet format in the S3 bucket.
+- Create a Lambda function to process data.
+- Use AWS Wrangler to access and manipulate files in the S3 bucket.
+- Store processed data in Parquet format in the S3 bucket.
 ### 6. Building ETL Pipelines
-Create an ETL job using AWS Glue to transform and clean data.
-Use Glue to move data from the raw bucket to a clean bucket.
-Create partitions and dynamic data frames for efficient querying.
+- Create an ETL job using AWS Glue to transform and clean data.
+- Use Glue to move data from the raw bucket to a clean bucket.
+- Create partitions and dynamic data frames for efficient querying.
 ### 7. Visualizing Data with AWS QuickSight
-Create a data source in AWS QuickSight.
-Build visualizations and dashboards to analyze YouTube data.
-Share insights by publishing and sharing the dashboard.
+- Create a data source in AWS QuickSight.
+- Build visualizations and dashboards to analyze YouTube data.
+- Share insights by publishing and sharing the dashboard.
 ## Challenges and Solutions
 - Handling Big Data: Use appropriate AWS services to manage and process large datasets efficiently.
 - Serialization and Deserialization Issues: Pre-process JSON data before querying in Athena.
